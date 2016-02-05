@@ -2,7 +2,7 @@
 var log = require('./logger')(module)
 
 var User = require('./user')
-var db = require('db')
+var db = require('./db')
 db.connect()
 
 function run () {
