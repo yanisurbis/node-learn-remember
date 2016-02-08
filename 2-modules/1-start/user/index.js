@@ -1,6 +1,7 @@
 // exports
 // global
 
+// import JSON
 var phrases = require('./ru')
 
 function User (name) {
